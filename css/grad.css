@@ -1,0 +1,26 @@
+body{
+ background-color: #000000;
+ margin:0px;
+ height:100%;
+}
+
+#degrade{
+
+  margin:0px;
+  height:100vh;
+  
+}
+
+.titre1 {
+  color:white;
+  font-size: 55px;
+  font-weight: 900;
+  font-family: 'Muli', sans-serif !important;
+  display: block;
+  margin-block-start: 180px;
+  margin-inline-start: 30px;
+  font-weight: bold;
+  text-align: center;
+    width: auto;
+  margin: auto;
+}
