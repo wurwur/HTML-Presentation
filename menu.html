@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta name="description" content="Webpage description goes here" />
+  <meta charset="utf-8">
+  <title>Présentation NSI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+    
+    
+<body onload="document.body.style.opacity='1'">
+    <div class="checkbox">
+        <input type="checkbox" id="click" onclick="honest()">
+        <label for="click" class="texte"></label>
+  </div>
+  <div class="nav-bar">
+    <ul>
+  <li class="li"><a href="#part1">Acceuil</a></li>
+  <li class="li"><a href="#part2">Thèmes</a></li>
+  <li class="li"><a href="#part4">Une spécialité à part</a></li>
+  <li class="li"><a href="#part5">Qu'attendons-nous de vous ?</a></li>
+  <li class="li"><a href="#part6">Informations</a></li>
+   </ul>
+  </div>
+    
+  <div class="part1" id="part1" style="background-color:#000000; height: 100vh">
+    <img class="logo" id="logo" src="img/logo.png" onmouseenter="logo_in()" onmouseout="logo_out()">
+    <img class="menu-background-img" id="menu-background-img"  src="img/background.gif">
+      <h1 class="menu-titre-h1" id="menu-titre-h1">La Spécialité NSI :  <br> <span class="experience" id ="experience">Une Expérience Informatique</span> </h1>
+  </div>
+
+  <div class="part2" id="part2"  style="background-color:#000000; height: 35vh">
+    <h1 class="part2-titre"> Bienvenue sur la site de présentation <br> de la  SPÉ Numérique et sciences informatiques ! </h1>
+    <p class="part2-texte" id="part2-texte">Cette spé est particulière et n’est pas comme les autres.  <br> En effet, vous allez travailler principalement sur votre ordinateur.  <br>Voici le programme de NSI de cette année : </p>
+    <img id="bayern-img" src="img/bayern-img.jpg" style="position: absolute;  max-height: 30%; max-width: 30%; top:930px; left:45px; display: none"> 
+  </div>
+    
+  <div class="part3" id="part3"  style="background-color:#111111; height: 120vh">
+      <img id="p3-h-img" src="img/p3-h.png" style="position: absolute;  max-height: 100%; max-width: 100%; left:75px; display:none"> 
+    <div class="p3-ligne">
+        <div class="p3-col-1" id="p3-col" ><img class="p3-img"
+         src="img/p3-1.gif"><p class="p3-texte-inter">Représentation des données : types et valeurs de base</p></div> 
+        <div class="p3-col-2" id="p3-col" ><img class="p3-img"
+         src="img/p3-2.gif"><p class="p3-texte-inter">Représentation des données : types construits 
+            </p></div>
+        <div class="p3-col-3" id="p3-col" ><img class="p3-img"
+         src="img/p3-3.gif"><p class="p3-texte-inter">Traitement de données en tables</p></div>
+</div>
+      <div class="p3-ligne">
+        <div class="p3-col-4" id="p3-col" ><img class="p3-img"
+         src="img/p3-4.gif"><p class="p3-texte-inter">Interactions entre l’homme et la machine sur le Web
+    </p></div>
+        <div class="p3-col-5" id="p3-col" ><img class="p3-img" id="p3-img-5"
+         src="img/p3-5.gif"><p class="p3-texte-inter">Architectures matérielles et systèmes d’exploitation
+    </p></div>
+        <div class="p3-col-6" id="p3-col" ><img class="p3-img"
+         src="img/p3-6.gif"><p class="p3-texte-inter">Langages et programmation</p></div>
+</div>
+      
+   
+          
+          
+  </div>
+    
+  <div align="center" class="part4" id="part4"  style="background:hsl(245, 57%, 56%); height: 100vh">
+      <p id="p4-text"> La spécialité du dépassement de soi </p>  
+      <p id="p4-text2"> Durant vos années de première et terminale, <br> cette spécialité vous confrontera à des défis semblant aux préalables insurmontables. <br>Des projets grandioses où vous ne savez où commencer, des langages nouveaux et des connaissances improbables. <br>Car la spé NSI est avant tout une introspection sur soi-même. </p>
+      <img id="p4-img" src="img/p4.gif" style="max-height: auto; max-width: auto;">
+      <iframe id="vid-p4-yt" style="display:none;" width="700" height="394" src="https://www.youtube.com/embed/0OYqC1OF7H0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+    
+  <div  align="center" class="part5" id="part5"  style="background: rgb(255,255,255); background: linear-gradient(180deg, rgba(255,255,255,1) 92%, rgba(201,196,255,1) 100%); height: 80vh">
+      <h1 id="p5-titre">Qu'attendons-nous des élèves en première ? </h1>
+      <p id="p5-text"> En NSI, on attend des élèves qu’ils sachent faire preuve d’autonomie, d’initiative et de créativité pour face à un<br> problème donné, le décomposer en sous-problèmes, y trouver des solutions, et mettre en œuvre ces solutions <br>notamment via un langage informatique. Il faut savoir faire preuve d’abstraction. <br><br>
+    Ils doivent faire preuve d’esprit d’équipe : l’informatique s’est construite par la collaboration et il est très fréquent<br> de relire et d’améliorer des programmes faits par d’autres personnes. <br><br>
+
+    La rigueur et l’organisation sont également très importantes : les langages et les protocoles reposent sur des règles<br> très précises qu’il faut savoir suivre.<br><br>
+
+    Enfin, une bonne partie de l’apprentissage en informatique se fait par soi-même, en lisant des sites et des articles. <br>Il faut savoir rechercher de l’information et partager des ressources.</p>
+      <img id="p5-img" src="img/p5-gif.gif" style="max-height: 40%">
+  </div>
+    <div  align="center" class="part6" id="part6"  style="background: rgb(147,138,242); background: linear-gradient(212deg, rgba(147,138,242,1) 0%, rgba(29,20,125,1) 100%);; height: 100vh">
+        <h1 id="p6-titre"> Déroulement des cours, notation et post-bac</h1>
+        <p id="p6-text"> Vous aurez, si vous prenez cette spécialité, 4 heures par semaine de NSI<br> en première puis 6 en terminale. Les cours se déroulent essentiellement au travers <br> de TP interactifs où vous pourrez découvrir et manipuler. Il y a cependant de nombreux cours de <br> théorie au travers desquels vous pourrez discuter de certains principes tels que les algorithmes. <br><br>Cette année vous serez noté par des petites interrogations sous forme de QCM,<br> ainsi que par la réalisation de projets par groupes de 2 ou 3. <br>À noter que la notation n'est pas sévère mais requière un minimum de connaissances. <br><br>Il semble logique que toute personne souhaitant faire des études autour de <br>l'informatique prenne la spécialité NSI. Il existe de nombreuses écoles qui encouragent à voir <br> n'autorisent que les élèves possédant la spécialité. Couplée à des spécialités comme la physique-chimie, vous pourrez accéder à des écoles préparatoires ST2I ou MPSI. </p>
+        <img id="p6-img" src=img/pronote-go-brrr.jpg style="width=1500px; height:auto; display:none">
+        <p style="text-align:right;color:white;font-size: 17px; opacity: 0.4"><br>~ Un travail réalisé avec amour et délicatesse par Kamil Bouabid et Junges Nael</p>
+    </div>
+
+
+
+   <script>
+function honest() {
+  var checkBox = document.getElementById("click");
+    
+  var menutitreh1 = document.getElementById("menu-titre-h1"); 
+  var soustitrepart2 = document.getElementById("part2-texte");
+  var bayernimg = document.getElementById("bayern-img");
+  var p3img = document.getElementById("p3-h-img");
+  var p3img5 = document.getElementById("p3-img-5");
+  var p4text = document.getElementById("p4-text2");
+  var yt = document.getElementById("vid-p4-yt");
+  var p4img = document.getElementById("p4-img");
+  var p5text = document.getElementById("p5-text");
+  var p5img = document.getElementById("p5-img"); 
+  var part5 = document.getElementById("part5");
+  var p6text = document.getElementById("p6-text");
+  var p6img = document.getElementById("p6-img");
+
+    
+  if (checkBox.checked == true){
+      menutitreh1.innerHTML = "Rectrutement Bayern de Rabat :  <br> <span class=\"experience\" id =\"experience\">Une Expérience Pas Folle Folle. <br> Une enquête signée zone interdite</span>";
+      soustitrepart2.innerHTML = "Vous êtes un sportif de haut niveau recherchant un contrat en club professionnel ?<br> Vous avez choisi LA spécialité NSI pour ce but.<br> En effet, Monsieur Kengne Kuate est un grand agent. Il a fait signer un joueur à Manchester United en voici une photo lors de la signature.";
+      bayernimg.style.display = "block";
+      p3img.style.display = "block";
+      p3img5.src = "img/p3-5-h.gif";
+      p4text.innerHTML = "Lmao y'a vraiment des gens qui pensent que c'est vrai tout ça ? <br> Vous allez juste apprendre à copier/coller du code discretement hein ^^. <br> Ça existe pas pour rien les indiens sur internet <br> C'est ça en vrai la spé NSI : ";
+      yt.style.display = "block";
+      p4img.style.display = "none";
+      p5text.innerHTML = "La spécialité NSI saura vous pousser dans vos plus profonds rettranchements personnels. <br><br> En effet, votre professeur avec sa vision accrue saura déterminer si vous travaillez ou bien si vous êtes sur votre ordinateur ou bien votre téléphone…<br><br> (le dites à personne mais il a le Sharingan)" ;
+      p5img.src = "img/p5-h.gif";
+      part5.style.height = "50vh";
+      p6text.innerHTML = "En gros : n3es et Pronote and QCM go brrrrr";
+      p6img.style.display = "block";
+ 
+     
+  } else {
+      menutitreh1.innerHTML = "La Spécialité NSI :  <br> <span class=\"experience\" id =\"experience\">Une Expérience Informatique</span>";
+      soustitrepart2.innerHTML = "Cette spé est particulière et n’est pas comme les autres.  <br> En effet, vous allez travailler principalement sur votre ordinateur.  <br>Voici le programme de NSI de cette année :";
+      bayernimg.style.display = "none";
+      p3img.style.display = "none";
+      p3img5.src = "img/p3-5.gif";
+      p4text.innerHTML = "Durant vos années de première et terminale, <br> cette spécialité vous confrontera à des défis semblant aux préalables insurmontables. <br>Des projets grandioses où vous ne savez où commencer, des langages nouveaux et des connaissances improbables. <br>Car la spé NSI est avant tout une introspection sur soi-même.";
+      yt.style.display = "none";
+      p4img.style.display = "block";
+      p5text.innerHTML = " En NSI, on attend des élèves qu’ils sachent faire preuve d’autonomie, d’initiative et de créativité pour face à un<br> problème donné, le décomposer en sous-problèmes, y trouver des solutions, et mettre en œuvre ces solutions <br>notamment via un langage informatique. Il faut savoir faire preuve d’abstraction. <br><br>       Ils doivent faire preuve d’esprit d’équipe : l’informatique s’est construite par la collaboration et il est très fréquent<br> de relire et d’améliorer des programmes faits par d’autres personnes. <br><br>      La rigueur et l’organisation sont également très importantes : les langages et les protocoles reposent sur des règles<br> très précises qu’il faut savoir suivre.<br><br>      Enfin, une bonne partie de l’apprentissage en informatique se fait par soi-même, en lisant des sites et des articles. <br>Il faut savoir rechercher de l’information et partager des ressources.";
+      p5img.src = "img/p5-gif.gif";
+      part5.style.height = "80vh";
+      p6text.innerHTML = "Vous aurez, si vous prenez cette spécialité, 4 heures par semaine de NSI<br> en première puis 6 en terminale. Les cours se déroulent essentiellement au travers <br> de TP interactifs où vous pourrez découvrir et manipuler. Il y a cependant de nombreux cours de <br> théorie au travers desquels vous pourrez discuter de certains principes tels que les algorithmes. <br><br>Cette année vous serez noté par des petites interrogations sous forme de QCM,<br> ainsi que par la réalisation de projets par groupes de 2 ou 3. <br>À noter que la notation n'est pas sévère mais requière un minimum de connaissances. <br><br>Il semble logique que toute personne souhaitant faire des études autour de <br>l'informatique prenne la spécialité NSI. Il existe de nombreuses écoles qui encouragent à voir <br> n'autorisent que les élèves possédant la spécialité. Couplée à des spécialités comme la physique-chimie, vous pourrez accéder à des écoles préparatoires ST2I ou MPSI. ";
+      p6img.style.display = "none";
+
+  }
+}
+function logo_in(){
+    var logo = document.getElementById("logo");
+    logo.src = "img/logo-h.png";
+    logo.style.width = "300px";
+    }
+function logo_out(){
+    var logo = document.getElementById("logo");
+    logo.src = "img/logo.png";
+logo.style.width = "150px";}
+</script>
+    
+</body>
+</html>
